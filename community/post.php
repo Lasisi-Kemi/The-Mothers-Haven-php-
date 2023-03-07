@@ -5,13 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Answered</title>
-        <link rel="stylesheet" href="./assess/vendors/aos/aos.css" />
-        <link rel="icon" type="access/png" href="assess/favicon.png">
+        <link rel="stylesheet" href="../assess/vendors/aos/aos.css" />
+        <link rel="icon" type="access/png" href="../assess/favicon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="./style/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../style/css/bootstrap.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -27,14 +27,14 @@
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html">About Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="login.html">Community</a></li>
-                            <li><a href="index.html">Contact Us</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                            <li><a href="../index.php">About Us</a></li>
+                            <li><a href="../blog/blog.php">Blog</a></li>
+                            <li><a href="../user/login.php">Community</a></li>
+                            <li><a href="#contactus">Contact Us</a></li>
                         </ul>
                     </div>
-                    <p class="nav-bar-tmh-links-signup"><a href="signup.html">Sign Up</a></p>
+                    <p class="nav-bar-tmh-links-signup"><a href="signup.php">Sign Up</a></p>
                 </nav>
             </div>
         </header>

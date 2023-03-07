@@ -22,7 +22,7 @@
         <header class="header fixed-top">
             <div class="max_width">
                 <nav class="nav-bar-tmh">
-                    <a href="index.html">
+                    <a href="../index.php">
                         <div class="nav-bar-tmh-logpc">
                             <!--<p><a href="index.html">THE MOTHER’S <span>HAVEN</span></a></p>-->
                         </div>
@@ -33,7 +33,7 @@
                             <li><a href="../index.php">About Us</a></li>
                             <li><a href="blog.php">Blog</a></li>
                             <li><a href="../user/login.php">Community</a></li>
-                            <li><a href="../index.php">Contact Us</a></li>
+                            <li><a href="#contactus">Contact Us</a></li>
                         </ul>
                     </div>
                     <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                         <div class="new-updates-section-flex-button" data-aos="fade-up"> 
-                            <p><a href="#">See More <span><img src="./assess/arrow2.svg"></span></a></p>
+                            <p><a href="#">See More <span><img src="../assess/arrow2.svg"></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
                                         and well-being of infants, but it also plays...
                                     </p>
                                     <div class="fitness-and-lifestyle-flex-content-text-link">
-                                        <a href="#">Read more <span><img src="./assess/arrow3.svg"></span></a>
+                                        <a href="#">Read more <span><img src="../assess/arrow3.svg"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -266,7 +266,7 @@
                                         and care. Your body...
                                     </p>
                                     <div class="fitness-and-lifestyle-flex-content-text-link">
-                                        <a href="#">Read more <span><img src="./assess/arrow3.svg"></span></a>
+                                        <a href="#">Read more <span><img src="../assess/arrow3.svg"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -282,7 +282,7 @@
                                         of your baby, which can...
                                     </p>
                                     <div class="fitness-and-lifestyle-flex-content-text-link">
-                                        <a href="#">Read more <span><img src="./assess/arrow3.svg"></span></a>
+                                        <a href="#">Read more <span><img src="../assess/arrow3.svg"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -300,7 +300,7 @@
                                         consecutive hours of sleep out...
                                     </p>
                                     <div class="fitness-and-lifestyle-flex-content-text-link">
-                                        <a href="#">Read more <span><img src="./assess/arrow3.svg"></span></a>
+                                        <a href="#">Read more <span><img src="../assess/arrow3.svg"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -316,7 +316,7 @@
                                         of emotions and challenges for...
                                     </p>
                                     <div class="fitness-and-lifestyle-flex-content-text-link">
-                                        <a href="#">Read more <span><img src="./assess/arrow3.svg"></span></a>
+                                        <a href="#">Read more <span><img src="../assess/arrow3.svg"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -330,13 +330,13 @@
                                     <p class="fitness-and-lifestyle-flex-content-text-three">Hey, Be Kind to Yourself (and Your Body) Right Now</p>
                                     <p class="fitness-and-lifestyle-flex-content-text-four">Any time the topic of weight comes up, our spidey sense can begin to tingle...</p>
                                     <div class="fitness-and-lifestyle-flex-content-text-link">
-                                        <a href="#">Read more <span><img src="./assess/arrow3.svg"></span></a>
+                                        <a href="#">Read more <span><img src="../assess/arrow3.svg"></span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="fitness-and-lifestyle-flex-button">
-                            <p><a href="update.php">See More <span><img src="./assess/arrow2.svg"></span></a></p>
+                            <p><a href="update.php">See More <span><img src="../assess/arrow2.svg"></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -373,7 +373,7 @@
                         </div>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="index.html">ABOUT US</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../index.php">ABOUT US</a></p>
                         <p><a href="blog.php">Our Blog</a></p>
                         <p><a href="../user/login.php">Join Community</a></p>
                         <p><a href="#">Speak to Experts</a></p>
@@ -396,10 +396,10 @@
                         <p><a href="tel:+2348022453363">+(234)8022453363</a></p>
                         <p><a href="mailto:themothershaven@gmail.com">themothershaven@gmail.com</a></p>
                         <div class="footer-flex-content-links-flex">
-                            <p><a href="#"><img src="./assess/facebook.svg"></a></p>
-                            <p><a href="#"><img src="./assess/twitter.svg"></a></p>
-                            <p><a href="#"><img src="./assess/instagram.svg"></a></p>
-                            <p><a href="#"><img src="./assess/linkedIn.svg"></a></p>
+                            <p><a href="#"><img src="../assess/facebook.svg"></a></p>
+                            <p><a href="#"><img src="../assess/twitter.svg"></a></p>
+                            <p><a href="#"><img src="../assess/instagram.svg"></a></p>
+                            <p><a href="#"><img src="../assess/linkedIn.svg"></a></p>
                         </div>
                     </div>
                 </div>
@@ -408,12 +408,12 @@
         <div id="backToTop">
             <i class="fas fa-arrow-up rounded-circle shadow"></i>
         </div>
-        <script src="./assess/vendors/jquery/jquery3.9.0.min.js"></script>
-        <script src="./assess/vendors/aos/aos.js"></script>
-        <script src="./script/script.js"></script>
+        <script src="../assess/vendors/jquery/jquery3.9.0.min.js"></script>
+        <script src="../assess/vendors/aos/aos.js"></script>
+        <script src="../script/script.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>     
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-        <script src="./style/js/bootstrap.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
     </body>
 </html>

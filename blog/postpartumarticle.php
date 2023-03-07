@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Postpartum</title>
-        <link rel="icon" type="access/png" href="assess/favicon.png">
+        <link rel="icon" type="access/png" href="../assess/favicon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="./style/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <link rel="stylesheet" type="text/css" href="../style/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -28,14 +28,14 @@
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html">About Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="login.html">Community</a></li>
-                            <li><a href="index.html">Contact Us</a></li>
+                            <li><a href="../index.php">Home</a></li>
+                            <li><a href="../index.php">About Us</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="../user/login.php">Community</a></li>
+                            <li><a href="#contactus">Contact Us</a></li>
                         </ul>
                     </div>
-                    <p class="nav-bar-tmh-links-signup"><a href="signup.html">Sign Up</a></p>
+                    <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
                 </nav>
             </div>
         </header>
@@ -44,9 +44,9 @@
             <div class="blogsbabycare-content">
                 <p class="blogsbabycare-content-text blogspostpartumcare-content-text">Postpartum Care</p>
                 <div class="home-update-blog">
-                    <a class="home-update-blog-link" href="blog.html">Home /</a>
+                    <a class="home-update-blog-link" href="blog.php">Home /</a>
                     <span><a class="home-update-blog-link" href="#">Top Reads/ </a></span>
-                    <span><a href="postpartum.html">Postpartum Care</a></span>
+                    <span><a href="postpartum.php">Postpartum Care</a></span>
                 </div>
             </div>
         </section>
@@ -175,7 +175,7 @@
                                     but for many new mothers, it can also be overwhelming and 
                                     challenging...
                                 </p>
-                                <p class="postpartum-article-flex-two-header-flex-two-link"><a class="" href="#">Read more<span><img src="./assess/arrow5.svg"></span></a></p>
+                                <p class="postpartum-article-flex-two-header-flex-two-link"><a class="" href="#">Read more<span><img src="../assess/arrow5.svg"></span></a></p>
                             </div>
                         </div>
                         <div class="postpartum-article-flex-two-header-flex">
@@ -190,7 +190,7 @@
                                     building a strong relationship with your baby. It helps your baby feel safe, 
                                     secure, and loved...
                                 </p>
-                                <p class="postpartum-article-flex-two-header-flex-two-link"><a class="" href="#">Read more<span><img src="./assess/arrow5.svg"></span></a></p>
+                                <p class="postpartum-article-flex-two-header-flex-two-link"><a class="" href="#">Read more<span><img src="../assess/arrow5.svg"></span></a></p>
                             </div>
                         </div>
                         <div class="postpartum-article-flex-two-header-flex">
@@ -205,14 +205,14 @@
                                     for fitness while also juggling the demands of daily life. However, maintaining an 
                                     active lifestyle...
                                 </p>
-                                <p class="postpartum-article-flex-two-header-flex-two-link"><a class="" href="#">Read more<span><img src="./assess/arrow5.svg"></span></a></p>
+                                <p class="postpartum-article-flex-two-header-flex-two-link"><a class="" href="#">Read more<span><img src="../assess/arrow5.svg"></span></a></p>
                             </div>
                         </div>
                         <div class="postpartum-article-flex-two-header-community">
                             <div class="postpartum-article-flex-two-header-community-block">
                                 <p>Join Our Community of Awesome Mothers Today.</p>
                                 <div class="postpartum-article-flex-two-header-community-block-button">
-                                    <a href="login.html">Join Community</a>
+                                    <a href="../user/login.php">Join Community</a>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +240,7 @@
                                     However, having nutritious snacks on hand can help you 
                                     maintain...
                                 </p>
-                                <p><a class="new-updates-section-flex-flex-flex-text" href="#">Read more<span><img src="./assess/arrow.svg"></span></a></p>
+                                <p><a class="new-updates-section-flex-flex-flex-text" href="#">Read more<span><img src="../assess/arrow.svg"></span></a></p>
                             </div>
                         </div>
                         <div class="related-articles-content-articles-flex">
@@ -252,7 +252,7 @@
                                 <p class="related-articles-content-articles-flex-two-texttwo">How to Soothe a Fussy Baby: Tips for New Parents.</p>
                                 <p class="related-articles-content-articles-flex-two-textthree">As a new parent, dealing with a fussy baby can be exhausting and overwhelming. It's normal for babies to cry, but when they become fussy and difficult to soothe, it can be stressful for parents...
                                 </p>
-                                <p><a class="new-updates-section-flex-flex-flex-text" href="#">Read more<span><img src="./assess/arrow.svg"></span></a></p>
+                                <p><a class="new-updates-section-flex-flex-flex-text" href="#">Read more<span><img src="../assess/arrow.svg"></span></a></p>
                             </div>
                         </div>
                         <div class="related-articles-content-articles-flex">
@@ -266,7 +266,7 @@
                                     overwhelming and stressful. Caring for a newborn can be demanding, 
                                     both physically and emotionally, and it's important to prioritize...
                                 </p>
-                                <p><a class="new-updates-section-flex-flex-flex-text" href="#">Read more<span><img src="./assess/arrow.svg"></span></a></p>
+                                <p><a class="new-updates-section-flex-flex-flex-text" href="#">Read more<span><img src="../assess/arrow.svg"></span></a></p>
                             </div>
                         </div>
                     </div>
@@ -301,25 +301,25 @@
                         </div>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="index.html">ABOUT US</a></p>
-                        <p><a href="blog.html">Our Blog</a></p>
-                        <p><a href="login.html">Join Community</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../index.php">ABOUT US</a></p>
+                        <p><a href="blog.php">Our Blog</a></p>
+                        <p><a href="../user/login.php">Join Community</a></p>
                         <p><a href="#">Speak to Experts</a></p>
                         <p><a href="#">Terms of Use</a></p>
                         <p><a href="#">Privacy Policy</a></p>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="blog.html">BLOG POSTS</a></p>
-                        <p><a href="postpartum.html">Postpartum Care</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="blog.php">BLOG POSTS</a></p>
+                        <p><a href="postpartum.php">Postpartum Care</a></p>
                         <p><a href="#">Parenting</a></p>
-                        <p><a href="babycare.html">Childcare</a></p>
-                        <p><a href="nutrition.html">Nutrition</a></p>
-                        <p><a href="fitness.html">Fitness and Diet</a></p>
+                        <p><a href="babycare.php">Childcare</a></p>
+                        <p><a href="nutrition.php">Nutrition</a></p>
+                        <p><a href="fitness.php">Fitness and Diet</a></p>
                         <p><a href="#">Child Health</a></p>
                         <p><a href="#">Mother Health</a></p>
                     </div>
                     <div class="footer-flex-content-links" id="contactus">
-                        <p class="footer-flex-content-links-headers"><a href="index.html">Connect with Us</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../index.php">Connect with Us</a></p>
                         <p><a  href="tel:+2348123498576">+(234)8123498576</a></p>
                         <p><a href="tel:+2348022453363">+(234)8022453363</a></p>
                         <p><a href="mailto:themothershaven@gmail.com">themothershaven@gmail.com</a></p>
@@ -336,10 +336,10 @@
         <div id="backToTop">
             <i class="fas fa-arrow-up rounded-circle shadow"></i>
         </div>
-        <script src="./script/script.js"></script>
+        <script src="../script/script.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>     
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-        <script src="./style/js/bootstrap.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
     </body>
 </html>
