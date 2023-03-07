@@ -21,7 +21,7 @@
         <header class="header fixed-top">
             <div class="max_width">
                 <nav class="nav-bar-tmh">
-                    <a href="index.html">
+                    <a href="../index.php">
                         <div class="nav-bar-tmh-logpc">
                             <!--<p><a href="index.html">THE MOTHER’S <span>HAVEN</span></a></p>-->
                         </div>

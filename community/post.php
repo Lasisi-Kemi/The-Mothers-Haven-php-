@@ -34,7 +34,7 @@
                             <li><a href="#contactus">Contact Us</a></li>
                         </ul>
                     </div>
-                    <p class="nav-bar-tmh-links-signup"><a href="signup.php">Sign Up</a></p>
+                    <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
                 </nav>
             </div>
         </header>
@@ -63,36 +63,36 @@
                             </div>
                             <p class="community-user-name-profile">Yemi Fatou</p>
                             <p class="community-profile-text-link">
-                                <img src="./assess/profile.svg">
+                                <img src="../assess/profile.svg">
                                 <a href="profile.html" class="community-profile-text-link-list">View profile</a>
                             </p>
                             <p class="community-profile-text-link">
-                                <img src="./assess/notification.svg">
+                                <img src="../assess/notification.svg">
                                 <a href="" class="community-profile-text-link-list">Notifications</a>
                             </p>
                             <p class="community-profile-text-link">
-                                <img src="./assess/question.svg">
-                                <a href="community.html" class="community-profile-text-link-list">All questions</a>
+                                <img src="../assess/question.svg">
+                                <a href="community.php" class="community-profile-text-link-list">All questions</a>
                             </p>
                             <p class="community-profile-text-link">
-                                <img src="./assess/answer.svg">
-                                <a href="post.html" class="community-profile-text-link-list">Answered</a>
+                                <img src="../assess/answer.svg">
+                                <a href="post.php" class="community-profile-text-link-list">Answered</a>
                             </p>
                             <p class="community-profile-text-link">
-                                <img src="./assess/unsolve.svg">
+                                <img src="../assess/unsolve.svg">
                                 <a href="" class="community-profile-text-link-list">Unsolved</a>
                             </p>
                             <p class="community-profile-text-link">
-                                <img src="./assess/solve.svg">
+                                <img src="../assess/solve.svg">
                                 <a href="" class="community-profile-text-link-list">Solved</a>
                             </p>
                             <p class="community-profile-text-link">
-                                <img src="./assess/setting.svg">
+                                <img src="../assess/setting.svg">
                                 <a href="" class="community-profile-text-link-list">Settings</a>
                             </p>
                             <form class="log-out-form">
                                 <button>
-                                    <img src="./assess/logout.svg">
+                                    <img src="../assess/logout.svg">
                                     <span>Log out</span>
                                 </button>
                             </form>
@@ -108,14 +108,14 @@
                             <div class="community-filters-section-list" data-filter="Popular">
                                 <div class="community-filters-section-list-profile answered-filters-section-list-profile">
                                     <div class="answered-filters-section-list-profile-flex">
-                                        <img class="community-filters-section-list-profile-arrow" src="./assess/comarrow.svg">
+                                        <img class="community-filters-section-list-profile-arrow" src="../assess/comarrow.svg">
                                         <img class="community-filters-section-list-profile-img" src="">
                                         <div class="community-filters-section-list-profile-flex">
                                             <p class="community-filters-section-list-profile-name">Clara Ade</p>
                                             <p class="community-filters-section-list-profile-time">2 hrs ago</p>
                                         </div>
                                     </div>
-                                    <img src="./assess/more.svg">
+                                    <img src="../assess/more.svg">
                                 </div>
                                 <p class="answered-filters-section-list-comment">I have a newborn and a toddler. 
                                     I am wondering how i can manage to adequately care for my children and myself. 
@@ -128,10 +128,10 @@
                                     <p class="answered-filters-section-list-replies-links"><span></span>Report</p>
                                 </div>
                                 <form class="answered-filters-section-list-links">
-                                    <button><img src="./assess/like.svg">Like</button>
-                                    <button class="comment-button"><img src="./assess/cooment.svg">Comment</button>
-                                    <button><img src="./assess/repost.svg">Report</button>
-                                    <button><img src="./assess/send.svg">Send</button>
+                                    <button><img src="../assess/like.svg">Like</button>
+                                    <button class="comment-button"><img src="../assess/cooment.svg">Comment</button>
+                                    <button><img src="../assess/repost.svg">Report</button>
+                                    <button><img src="../assess/send.svg">Send</button>
                                 </form>
                                 <div class="answered-filters-section-list">
                                     <div class="answered-filters-section-list-profile">
@@ -142,7 +142,7 @@
                                                 <p class="community-filters-section-list-profile-time">Now</p>
                                             </div>
                                         </div>
-                                        <img src="./assess/more2.svg">
+                                        <img src="../assess/more2.svg">
                                     </div>
                                     <p class="answered-filters-section-list-comment">Being a mom is the one thing 
                                         that can make you feel like you are falling apart
@@ -150,8 +150,8 @@
                                         balance in motherhood actually looks like in real time?
                                     </p>
                                     <form class="answered-comment-filters-section-list-links">
-                                        <button class="like-comment-button"><img src="./assess/like.svg">Like</button>
-                                        <button class="comment-button"><img src="./assess/cooment.svg">Reply</button>
+                                        <button class="like-comment-button"><img src="../assess/like.svg">Like</button>
+                                        <button class="comment-button"><img src="../assess/cooment.svg">Reply</button>
                                     </form>
                                 </div>
                                 <div class="answered-reply-reply-filters-section-list">
@@ -163,14 +163,14 @@
                                                 <p class="community-filters-section-list-profile-time">Now</p>
                                             </div>
                                         </div>
-                                        <img src="./assess/more2.svg">
+                                        <img src="../assess/more2.svg">
                                     </div>
                                     <p class="answered-filters-reply-section-list-comment"> Clara Ade that’s what makes being 
                                         a mom so damn beautiful
                                     </p>
                                     <form class="answered-comment-filters-section-list-links">
-                                        <button class="like-comment-button"><img src="./assess/like.svg">Like</button>
-                                        <button class="comment-button"><img src="./assess/cooment.svg">Reply</button>
+                                        <button class="like-comment-button"><img src="../assess/like.svg">Like</button>
+                                        <button class="comment-button"><img src="../assess/cooment.svg">Reply</button>
                                     </form>
                                 </div>
                             </div>
@@ -183,7 +183,7 @@
                     <div class="ask-a-question-tags">
                         <div class="ask-a-question-tags-member">
                             <div class="ask-a-question-tags-member-flex">
-                                <img src="./assess/period.svg">
+                                <img src="../assess/period.svg">
                                 <span class="ask-a-question-tags-member-flex-text online-active-color">online</span>
                             </div>
                             <p class="population-of-members ask-a-question-tags-member-flex-text">8,560 members</p>
@@ -239,33 +239,33 @@
                         </div>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="index.html">ABOUT US</a></p>
-                        <p><a href="blog.html">Our Blog</a></p>
-                        <p><a href="login.html">Join Community</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../index.php">ABOUT US</a></p>
+                        <p><a href="../blog/blog.php">Our Blog</a></p>
+                        <p><a href="../user/login.php">Join Community</a></p>
                         <p><a href="#">Speak to Experts</a></p>
                         <p><a href="#">Terms of Use</a></p>
                         <p><a href="#">Privacy Policy</a></p>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="blog.html">BLOG POSTS</a></p>
-                        <p><a href="postpartum.html">Postpartum Care</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../blog/blog.php">BLOG POSTS</a></p>
+                        <p><a href="../blog/postpartum.php">Postpartum Care</a></p>
                         <p><a href="#">Parenting</a></p>
-                        <p><a href="babycare.html">Childcare</a></p>
-                        <p><a href="nutrition.html">Nutrition</a></p>
-                        <p><a href="fitness.html">Fitness and Diet</a></p>
+                        <p><a href="../blog/babycare.php">Childcare</a></p>
+                        <p><a href="../blog/nutrition.php">Nutrition</a></p>
+                        <p><a href="../blog/fitness.php">Fitness and Diet</a></p>
                         <p><a href="#">Child Health</a></p>
                         <p><a href="#">Mother Health</a></p>
                     </div>
                     <div class="footer-flex-content-links" id="contactus">
-                        <p class="footer-flex-content-links-headers"><a href="index.html">Connect with Us</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../index.php">Connect with Us</a></p>
                         <p><a href="tel:+2348123498576">+(234)8123498576</a></p>
                         <p><a href="tel:+2348022453363">+(234)8022453363</a></p>
                         <p><a href="mailto:themothershaven@gmail.com">themothershaven@gmail.com</a></p>
                         <div class="footer-flex-content-links-flex">
-                            <p><a href="#"><img src="./assess/facebook.svg"></a></p>
-                            <p><a href="#"><img src="./assess/twitter.svg"></a></p>
-                            <p><a href="#"><img src="./assess/instagram.svg"></a></p>
-                            <p><a href="#"><img src="./assess/linkedIn.svg"></a></p>
+                            <p><a href="#"><img src="../assess/facebook.svg"></a></p>
+                            <p><a href="#"><img src="../assess/twitter.svg"></a></p>
+                            <p><a href="#"><img src="../assess/instagram.svg"></a></p>
+                            <p><a href="#"><img src="../assess/linkedIn.svg"></a></p>
                         </div>
                     </div>
                 </div>

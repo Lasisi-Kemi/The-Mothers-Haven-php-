@@ -36,7 +36,7 @@
                             <li><a href="#contactus">Contact Us</a></li>
                         </ul>
                     </div>
-                    <p class="nav-bar-tmh-links-signup"><a href="signup.html">Sign Up</a></p>
+                    <p class="nav-bar-tmh-links-signup"><a href="./user/signup.php">Sign Up</a></p>
                 </nav>
             </div>
         </header>
