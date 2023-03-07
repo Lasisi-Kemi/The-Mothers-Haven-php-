@@ -29,10 +29,10 @@
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="#aboutus">About Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="login.html">Community</a></li>
+                            <li><a href="./blog/blog.php">Blog</a></li>
+                            <li><a href="./user/login.html">Community</a></li>
                             <li><a href="#contactus">Contact Us</a></li>
                         </ul>
                     </div>
@@ -252,7 +252,7 @@
             <div class="max_width">
                 <div class="footer-flex-content">
                     <div class="footer-flex-content-one">
-                        <a href="index.html"><div class="footer-flex-content-one-logo">
+                        <a href="index.php"><div class="footer-flex-content-one-logo">
                             
                         </div></a>
                         <div class="footer-flex-content-one-text">
@@ -264,19 +264,19 @@
                     </div>
                     <div class="footer-flex-content-links">
                         <p class="footer-flex-content-links-headers"><a href="#aboutus">ABOUT US</a></p>
-                        <p><a href="blog.html">Our Blog</a></p>
-                        <p><a href="login.html">Join Community</a></p>
+                        <p><a href="./blog/blog.php">Our Blog</a></p>
+                        <p><a href="./user/user/login.php">Join Community</a></p>
                         <p><a href="#">Speak to Experts</a></p>
                         <p><a href="#">Terms of Use</a></p>
                         <p><a href="#">Privacy Policy</a></p>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="blog.html">BLOG POSTS</a></p>
-                        <p><a href="postpartum.html">Postpartum Care</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="./blog/blog.php">BLOG POSTS</a></p>
+                        <p><a href="./blog/postpartum.php">Postpartum Care</a></p>
                         <p><a href="#">Parenting</a></p>
-                        <p><a href="babycare.html">Childcare</a></p>
-                        <p><a href="nutrition.html">Nutrition</a></p>
-                        <p><a href="fitness.html">Fitness and Diet</a></p>
+                        <p><a href="./blog/babycare.html">Childcare</a></p>
+                        <p><a href="./blog/nutrition.html">Nutrition</a></p>
+                        <p><a href="./blog/fitness.html">Fitness and Diet</a></p>
                         <p><a href="#">Child Health</a></p>
                         <p><a href="#">Mother Health</a></p>
                     </div>
