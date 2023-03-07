@@ -1,0 +1,2803 @@
+body  * {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mothercolor: rgba(11, 92, 211, 1);
+    --childcolor: rgba(212, 61, 132, 1);
+    --blackcolor: rgba(20, 16, 16, 1);
+    --whitecolor: rgba(255, 255, 255, 1);
+    --graycolor: rgba(79, 79, 79, 1);
+    --graycolor2: rgba(189, 189, 189, 1);
+    --blogcolor: rgba(110, 110, 110, 1);
+    --signuptextcolor: rgba(13, 110, 253, 1);
+    --footerblackcolor: rgba(32, 32, 32, 1);
+    --errorcolor: rgba(226, 41, 41, 1);   
+    --inputcolor: rgba(79, 79, 79, 0.2);
+    --logincolor: rgba(170, 49, 105, 1);
+    --hrline: rgba(53, 134, 253, 1);
+    --maxwidth: 1237px;
+    --maxwidth2: 1300px;
+    --fontfamily: 'Montserrat', sans-serif;
+    --fontfamily2: 'Poppins', sans-serif;
+    --sectionc: rgba(207, 226, 255, 1);
+}
+
+/*header start here */
+.header {
+    width: 100%;
+    background-color: var(--whitecolor);
+}
+
+.max_width {
+    width: 100%;
+    max-width: var(--maxwidth);
+    margin: 0px auto;
+}
+
+.nav-bar-tmh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-tmh-logpc {
+    background-image: url(../assess/tmp_b9f54d42-a566-4b9a-9d32-6a7cbf15a49f\ 1.png);
+    background-size: cover;
+    height: 98px;
+    width: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-bar-tmh-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-bar-tmh-logo a {
+    font-family: var(--fontfamily);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: var(--mothercolor);
+    text-decoration: none;
+}
+
+.nav-bar-tmh-logo span {
+    color: var(--childcolor);
+}
+
+.nav-bar-tmh-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-tmh-links ul {
+    width: 431px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar-tmh-links a {
+    text-decoration: none;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--blackcolor);
+}
+
+.nav-bar-tmh-links-signup {
+    /*margin-left: 69px;*/
+    padding: 12px 24px;
+    background-color: var(--signuptextcolor);
+    border-radius: 8px;
+}
+
+.nav-bar-tmh-links-signup a {
+    text-decoration: none;
+    color: var(--whitecolor);
+    font-family: var(--fontfamily2);
+    font-weight: 500;
+}
+/* header ends here */
+/*herosection start here */
+.containera {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assess/hero-section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 925px;
+    margin-top: 100px;
+}
+
+.container-text {
+    padding-top: 188px;
+}
+
+.container-a-text {
+    height: 185px;
+    width: 1014px;
+    font-family: var(--fontfamily);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0.1em;
+    color: var(--whitecolor);
+}
+
+.container-a-texttwo {
+    height: 84px;
+    width: 553px;
+    font-family: var(--fontfamily);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: var(--whitecolor);
+}
+
+.container-get-started {
+    background-color: var(--signuptextcolor);
+    width: 184px;
+    margin: 40px 0px 364px 0px;
+    padding: 21px 46.5px;
+    border-radius: 8px;
+}
+
+.container-get-started a {
+    text-decoration: none;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--whitecolor);
+}
+
+.container-get-started:hover {
+    cursor: pointer;
+    background-color: rgba(9, 73, 169, 1);
+    color: var(--whitecolor);
+} 
+/* hero section ends here */
+/*about us section start here */
+.containerb {
+    padding: 101px 0px 95px 0px;
+}
+
+.containerb-text {
+    color: var(--graycolor);
+}
+
+.about-us-flex {
+    display: flex;
+}
+
+.about-us-flex-background {
+    background-image: url(../assess/Premier\ 1.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 608px;
+    flex-basis: 50%;
+    border-radius: 8px;
+}
+
+.about-us-flex-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+.container-b-text {
+    margin-bottom: 98px;
+    font-family: var(--fontfamily);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.container-b-texttwo {
+    font-family: var(--fontfamily2);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    align-self: center;
+}
+/*about us section ends here*/
+/*offers section start here */
+
+.containerc {
+    background-color: var(--sectionc);
+    padding: 116px 0px 186px 0px;
+    position: relative;
+}
+
+.container-c-text-content {
+    text-align: center;
+    color: var(--graycolor);
+}
+
+.container-c-text-content-tmh {
+    font-family: var(--fontfamily);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0.1em;
+}
+
+.container-c-text-content-tmhtwo {
+    height: 118px;
+    width: 977px;
+    margin: 0px auto;
+    font-family: var(--fontfamily2);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+}
+
+.flex-content-tmh {
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-content-tmh a {
+    text-decoration: none;
+}
+
+.flex-content-tmh-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--graycolor);
+}
+
+.flex-content-tmh-box-text {
+    padding: 27px 0px 30px 0px;
+    font-family: var(--fontfamily);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+}
+
+.flex-content-tmh-box-texttwo {
+    height: 96px;
+    width: 360px;
+   text-align: center;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+}
+
+.group-love {
+    background-image: url(../assess/Group.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 152.65609744934912px;
+    width: 171.52224735629517px;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* offers section ends here */
+/*focus section start here */
+
+.containerd {
+    height: 790px;
+    position: relative;
+}
+
+.flex-content-containerd {
+    display: flex;
+
+}
+
+.flex-content-containerd-picture {
+    height: 790px;
+    width: 861px;
+    background-image: url(../assess/focusimage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-content-containerd-text {
+    width: 579px;
+    height: 363px;
+    color: var(--graycolor);
+    text-align: justify;
+    position: absolute;
+    top: 240px;
+    left: 725px;
+}
+
+.flex-content-containerd-text-one {
+    font-family: var(--fontfamily);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.1em;
+}
+
+.flex-content-containerd-text-two {
+    font-family: var(--fontfamily2);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.045em;
+}
+
+.flex-content-containerd-text-link {
+    margin-top: 24px;
+}
+
+.flex-content-containerd-text-link p {
+    background-color: var(--whitecolor);
+    width: 190px;
+    padding: 21px 46px;
+    border-radius: 8px;
+    border: 1px solid var(--signuptextcolor);
+}
+
+.flex-content-containerd-text-link p:hover {
+    cursor: pointer;
+    background-color: rgba(9, 73, 169, 1);
+    color: var(--whitecolor);
+} 
+
+.flex-content-containerd-text-link a {
+    text-decoration: none;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--signuptextcolor);
+}
+
+.grouptwo-love {
+    background-image: url(../assess/group2.png);
+    background-position: top;
+    background-size: cover;
+    height: 152.656066931771px;
+    width: 171.5222320975061px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+/*focus section ends here*/
+/*medical advisory section starts here */
+
+.containere {
+    background-color: var(--sectionc);
+    padding: 116px 0px 58px 0px;
+}
+
+.container-e-medical-text {
+    text-align: center;
+    color: var(--graycolor);
+}
+
+.container-e-medical-text-one {
+    margin-bottom: 12px;
+    font-family: var(--fontfamily);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0.1em;
+}
+
+.container-e-medical-text-two {
+    height: 67px;
+    width: 1021px;
+    margin: 0px auto;
+    font-family: var(--fontfamily2);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+}
+
+.container-e-medical-container {
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-e-medical-flex-container {
+    margin-bottom: 68px;
+    display: flex;
+    flex-direction: column;
+    color: var(--graycolor);
+}
+
+.container-e-medical-flex-container-flex {
+    display: flex;
+}
+
+.container-e-medical-flex-container-flex-one {
+    height: 109px;
+    width: 109px;
+    border-radius: 100%;
+}
+
+.box-radius {
+    margin-top: 68px;
+}
+
+.radius-1 {
+    background-image: url(../assess/Ellipse\ 169.png);
+    background-size: cover;
+}
+
+.radius-2 {
+    background-image: url(../assess/Ellipse\ 171.png);
+    background-size: cover;
+}
+
+.radius-3 {
+    background-image: url(../assess/Ellipse\ 173.png);
+    background-size: cover;
+}
+
+.radius-4 {
+    background-image: url(../assess/Ellipse\ 170.png);
+    background-size: cover;
+}
+
+.radius-5 {
+    background-image: url(../assess/Ellipse\ 172.png);
+    background-size: cover;
+}
+
+.radius-6 {
+    background-image: url(../assess/Ellipse\ 174.png);
+    background-size: cover;
+}
+
+.container-e-medical-flex-container-flex-two {
+    padding-left: 16px;
+    align-self: center;
+}
+
+.container-e-medical-flex-container-flex-two-one {
+    font-family: var(--fontfamily2);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.container-e-medical-flex-container-flex-two-two {
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+/*medical advisory section ends here */
+/*join our community section starts here */
+
+.containerf {
+    padding: 115.85px 0px 127px;
+    text-align: center;
+    color: var(--graycolor);
+}
+
+.container-f-community-text-one {
+    margin-bottom: 12px;
+    font-family: var(--fontfamily);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0.1em;
+}
+
+.container-f-community-text-two {
+    height: 76px;
+    width: 725px;
+    margin: 0px auto;
+    font-family: var(--fontfamily2);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+}
+
+.container-f-button {
+    /*height: 64px;
+    width: 490px;
+    margin: 0px auto;*/
+    margin-top: 59.92px;
+    /*position: relative;*/
+}
+
+/*.container-f-button input {
+    width: 490px;
+    padding: 20px 0px 19px 22px;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    border: none;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    outline: none;
+}*/
+
+.container-f-button button {
+    background-color: var(--signuptextcolor);
+    width: 184px;
+    border-radius: 8px;
+    padding: 21px 24.5px;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--whitecolor);
+    border: none;
+    /*position: absolute;
+    right: 0px;*/
+}
+/*Join our community ends here*/
+/*Footer starts here*/
+
+.footer {
+    background-color: var(--sectionc);
+    padding: 37px 0px 0px 0px;
+}
+
+.footer-flex-content {
+    display: flex;
+}
+
+.footer-flex-content-one-logo {
+    background-image: url(../assess/tmp_b9f54d42-a566-4b9a-9d32-6a7cbf15a49f\ 1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 168px;
+    width: 168px;
+}
+
+.footer-flex-content-one-text-one {
+    height: 88px;
+    width: 246px;
+    margin: 20px 0px;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: var(--graycolor);
+}
+
+.footer-flex-content-one-text-two {
+    font-family: var(--fontfamily);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: var(--footerblackcolor);
+}
+
+.footer-flex-content-links {
+    margin-left: 70px;
+}
+
+.footer-flex-content-links p {
+    margin-bottom: 20px;
+}
+
+.footer-flex-content-links a {
+    text-decoration: none;
+    color: var(--footerblackcolor);
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.footer-flex-content-links-headers a {
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--signuptextcolor);
+}
+
+.footer-flex-content-links-flex {
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#backToTop i {
+    cursor: pointer;
+    padding: 10px 13px;
+    font-size: 14px;
+    color: var(--primaryColor);
+    background-color: #fff;
+}
+#backToTop i:hover {
+    color: #fff;
+    background-color: var(--childcolor);
+    transition: 2s;
+}
+/*footer ends here*/
+/*sign up Page*/
+
+.signupflex {
+    display: flex;
+}
+
+.nav-bar-tmh-signup {
+    background-image: url(../assess/signup-logo.png);
+    background-size: cover;
+    height: 135px;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signupflex-one {
+    margin-left: 56px;
+    flex-basis: 50%;
+    color: var(--graycolor);
+}
+
+.signupflex-one-padding {
+    padding: 23px 0px 87px 0px;
+}
+
+.signupflex-one-form-text {
+    font-family: var(--fontfamily2);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+.signupflex-one-form-texttwo {
+    margin-bottom: 24px;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.signupflex-one-form-detail {
+    margin-bottom: 8px;
+    font-family: var(--fontfamily2);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+}
+
+.signupflex-one-form-detail span {
+    color: var(--errorcolor);
+}
+
+.signupflex-one-form input {
+    width: 550px;
+    margin-bottom: 24px;
+    padding: 19px 0px 20px 18px;
+    border: 1px solid var(--inputcolor);
+    border-radius: 8px;
+    outline: none;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+.signupflex-two {
+    background-image: url(../assess/signupbg.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+}
+
+.signupflex-one-form-button {
+    margin: 22px 0px 14px 0px;
+}
+
+.signupflex-one-form-button button {
+    background-color: transparent;
+    width: 550px;
+    border-radius: 8px;
+    padding: 13px 32px 16px 32px;
+    color: var(--signuptextcolor);
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    border: 1px solid var(--signuptextcolor);
+}
+
+.signupflex-one-form-button button:hover {
+    cursor: pointer;
+    background-color: rgba(9, 73, 169, 1);
+    color: var(--whitecolor);
+}
+
+.signupflex-one-form-button-login{
+    margin-left: 134px;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+.signupflex-one-form-button-login a {
+    text-decoration: none;
+    color: var(--logincolor);
+}
+/*sign up page ends here */
+/* login page*/
+
+.loginflex {
+    height: 100vh;
+}
+
+.nav-bar-tmh-login {
+    background-image: url(../assess/tmp_b9f54d42-a566-4b9a-9d32-6a7cbf15a49f\ 1.png);
+    background-size: cover;
+    height: 98px;
+    width: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginflex-one-form input {
+    width: 550px;
+    margin-bottom: 18px;
+    padding: 19px 0px 20px 18px;
+    border: 1px solid var(--inputcolor);
+    border-radius: 8px;
+    outline: none;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+.loginflex-one-form-button button {
+    background-color: var(--signuptextcolor);
+    color: var(--whitecolor);
+}
+
+.loginflex-two {
+    background-image: url(../assess/login-bg.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+}
+/*login end here*/
+/* continue page starts from here */
+
+.max-width {
+    width: 100%;
+    max-width: var(--maxwidth2);
+    margin: 0px auto;
+}
+
+.continue-page {
+    padding: 101px 0px 139px 0px;
+}
+
+.indicate-interest-text {
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+    color: var(--graycolor);
+    font-family: var(--fontfamily);
+}
+
+.indicate-interest-text-one {
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+}
+
+.indicate-interest-text-two {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+.continue-page-two {
+    color: var(--graycolor);
+    font-family: var(--fontfamily);
+}
+
+.continue-page-two-interest {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+
+.continue-page-two-flex {
+    margin-top: 50px;
+    font-family: var(--fontfamily);
+}
+
+.continue-page-two-flex-flex {
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: center;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+
+.continue-page-two-flex-flex p {
+    width: 214px;
+    margin-left: 32px;
+    padding: 12px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: 1px solid var(--childcolor);
+    border-radius: 8px;
+}
+
+.continue-page-two-flex-flex P:hover {
+    background-color: rgba(255, 219, 236, 1);
+    cursor: pointer;
+}
+
+.create-account-button {
+    margin-top: 133px;
+    display: flex;
+    justify-content: space-around;
+    /*text-align: center;*/
+}
+
+.create-account-button-one {
+    background-color: transparent;
+    height: 54px;
+    width: 117px;
+    border-radius: 4px;
+    padding: 16px 0px;
+    border: 1px solid #BDBDBD;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(189, 189, 189, 1);
+}
+
+.create-account-button-two {
+    background-color: rgba(11, 92, 211, 1);
+    width: 184px;
+    border-radius: 4px;
+    padding: 16px 0px;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--whitecolor);
+    border: none;
+}
+/*continue page ends here*/
+/*blog page start here*/
+.blogs {
+    background-image: url(../assess/pexels-anna-shvets-11369185.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 371px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.blog-content {
+    padding: 79.16px 0px 94.42px 0px;
+    text-align: center;
+    font-family: var(--fontfamily);
+}
+
+.blog-content-text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    color: var(--whitecolor);
+}
+
+.blog-content-texttwo {
+    margin-bottom: 43.2px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--whitecolor);
+}
+
+.blog-form-input input{
+    background-color: transparent;
+    width: 560.4519653320312px;
+    padding: 18.12px 10.02px 18.12px 20.02px;
+    border-radius: 8px;
+    outline: none;
+    border: 1.5px solid var(--graycolor2);
+    color: var(--graycolor2);
+    font-family: var(--fontfamily);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.blog-form-input span {
+    text-indent: -70px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-search {
+    color: var(--whitecolor);
+}
+
+.new-updates-section {
+    padding: 99px 0px 62px 0px;
+}
+
+.new-updates-section-text {
+    margin-bottom: 8px;
+    font-family: var(--fontfamily);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+}
+
+.new-updates-section-flex {
+    padding-top: 42px;
+    border-top: 1.5px solid var(--hrline);
+}
+
+.new-updates-section-flex-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-updates-section-flex-box {
+    margin-top: 64px;
+}
+
+.new-updates-section-flex-flex-pic {
+    height: 380px;
+    width: 607px;
+    border-radius: 4px;
+}
+
+.new-update-picture-one {
+    background-image: url(../assess/Image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.new-update-picture-two {
+    background-image: url(../assess/babycare.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.new-updates-section-flex-flex-text-one {
+    margin-bottom: 16px;
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: var(--signuptextcolor);
+}
+
+.new-updates-section-flex-flex-text-two {
+    height: 68px;
+    width: 611px;
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 1);
+    font-family: var(--fontfamily);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+}
+
+.new-updates-section-flex-flex-text-three {
+    margin-bottom: 18.5px;
+    height: 104px;
+    width: 600px;
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: var(--blogcolor);
+}
+
+.new-updates-section-flex-flex-flex p {
+    font-family: var(--fontfamily);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: rgba(130, 130, 130, 1);
+}
+
+.new-updates-section-flex-flex-flex a {
+    text-decoration: none;
+}
+
+.new-updates-section-flex-flex-flex-text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--signuptextcolor);
+    text-decoration: none;
+}
+
+.new-updates-section-flex-flex-flex-text span {
+    margin-left: 10.33px;
+}
+
+.new-updates-section-flex-flex-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-updates-section-flex-button {
+    margin-top: 63px;
+    text-align: center;
+}
+
+.new-updates-section-flex-button p {
+    background-color: var(--signuptextcolor);
+    width: 260px;
+    margin: 0px auto;
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: none;
+}
+
+.new-updates-section-flex-button a {
+    color: var(--whitecolor);
+    text-decoration: none;
+}
+
+.explore-section-text {
+    padding-bottom: 8px;
+    font-family: var(--fontfamily);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    border-bottom: 1.5px solid var(--hrline);
+}
+
+.explore-carousel {
+    padding: 64px 0px 91px 0px;
+}
+
+.slider-pictures {
+    display: flex;
+}
+
+.picture-frame {
+    height: 392px;
+    width: 380px;
+    margin-right: 24px;
+    position: relative;
+}
+
+.picture-frame-content {
+    height: 248px;
+    width: 380px;
+    border-radius: 5px;
+}
+
+.baby-care-picture {
+    background-image: url(../assess/Rectangle\ 5869.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.post-partum-picture {
+    background-image: url(../assess/postpatrum.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nutrition-care-picture {
+    background-image: url(../assess/nutrition.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fitness-lifestyle-picture {
+    background-image: url(../assess/fitness.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture-frame-text {
+    background-color: rgba(255, 255, 255, 1);
+    height: 197px;
+    width: 321px;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 0px 4px 36px 5px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0px;
+    left: 29.5px;
+}
+
+.picture-frame-text-one {
+    padding: 27px 0px 16px 0px;
+    font-family: var(--fontfamily2);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--signuptextcolor);
+}
+
+.picture-frame-text-two {
+    height: 100px;
+    width: 276px;
+    margin: 0px auto;
+    padding-bottom: 27px;
+    font-family: var(--fontfamily);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: rgba(0, 0, 0, 1);
+}
+
+.left-right-left {
+    background-color: #fff;
+    position: absolute;
+    top: 131px;
+    left: 100px;
+    border-radius: 100%;
+}
+
+.left-right-right {
+    background-color: #fff;
+    position: absolute;
+    top: 131px;
+    right: 100px;
+    border-radius: 100%;
+}
+
+#left-right i {
+    cursor: pointer;
+    padding: 10px 13px;
+    font-size: 14px;
+    color: var(--primaryColor);
+    background-color: #fff;
+}
+
+.fitness-and-lifestyle-boxes {
+     padding: 110px 0px 104px 0px;
+}
+
+.fitness-and-lifestyle-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fitness-and-lifestyle-flex-content {
+    width: 397px;
+    box-shadow: 2px 8px 40px rgba(9, 73, 169, 0.04);
+}
+
+.fitness-and-lifestyle-flex-content-pics {
+    background-image: url(../assess/weightloss.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 318px;
+    width: 397px;
+}
+
+.fitness-and-lifestyle-flex-content-text {
+    background-color: var(--whitecolor);
+    padding-left: 16px;
+    font-family: var(--fontfamily);
+}
+
+.fitness-and-lifestyle-flex-content-text-one {
+    padding: 16px 0px 4px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(17, 17, 17, 1);
+}
+
+.fitness-and-lifestyle-flex-content-text-two {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(130, 130, 130, 1);
+}
+
+.fitness-and-lifestyle-flex-content-text-three {
+    height: 44px;
+    width: 365px;
+    margin: 15px 0px 8px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.fitness-and-lifestyle-flex-content-text-four {
+    height: 40px;
+    width: 365px;
+    margin-bottom: 29px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+.fitness-and-lifestyle-flex-content-text-link {
+    padding-bottom: 16px;
+}
+
+.fitness-and-lifestyle-flex-content-text-link a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-decoration: none;
+}
+
+.fitness-and-lifestyle-flex-content-pictwo {
+    background-image: url(../assess/exercise.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fitness-and-lifestyle-flex-content-picthree {
+    background-image: url(../assess/eatinghabit.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fitness-and-lifestyle-margin {
+    margin-top: 32px;
+}
+
+.fitness-and-lifestyle-flex-content-picsfour {
+    background-image: url(../assess/childhealth.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fitness-and-lifestyle-flex-content-picfive {
+    background-image: url(../assess/postpat.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fitness-and-lifestyle-flex-content-picsix {
+    background-image: url(../assess/motherhealth.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fitness-and-lifestyle-flex-button {
+    margin-top: 104px;
+    text-align: center;
+}
+
+.fitness-and-lifestyle-flex-button p {
+    background-color: var(--signuptextcolor);
+    width: 260px;
+    margin: 0px auto;
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: none;
+}
+
+.fitness-and-lifestyle-flex-button a {
+    color: var(--whitecolor);
+    text-decoration: none;
+}
+
+.updatebg {
+    background-image: url(../assess/newsletter.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 317px;
+}
+
+.update-bg-content {
+    padding: 59px 0px 70px 0px;
+    text-align: center;
+    font-family: var(--fontfamily);
+}
+
+.update-bg-content-textone {
+    margin: 16px 0px 34px 0px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: rgba(252, 252, 252, 1);
+}
+
+.update-bg-content-input input{
+    background-color: transparent;
+    width: 600px;
+    padding: 13px 30px 15px 55px;
+    border-radius: 8px;
+    outline: none;
+    border: 1.5px solid var(--graycolor2);
+    color: rgba(252, 252, 252, 1);
+    font-family: var(--fontfamily);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.envelope-icon {
+    text-indent: -1150px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.arrow-icon {
+    text-indent: -70px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.update-bg-content-input i {
+    color: var(--whitecolor);
+}
+/* blog page ends end */
+/* update page */
+
+.blogsupdate {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assess/Rectangle\ 1473.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 261px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.home-update-blog {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding: 16.57px 0px 17px 0px;
+    position: absolute;
+    bottom: 0px;
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.home-update-blog a {
+    text-decoration: none;
+}
+
+.home-update-blog-link {
+    color: rgba(20, 16, 16, 1);
+}
+
+.home-update-blog span {
+    color: rgba(13, 110, 253, 1);
+}
+
+.fitness-and-lifestyle-boxesupdate {
+    padding: 99px 0px;
+}
+
+.fitness-and-lifestyle-flex-content-picsupdate {
+    background-image: url(../assess/Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 318px;
+    width: 397px;
+}
+
+.fitness-and-lifestyle-flex-content-pictwoupdate {
+    background-image: url(../assess/babycare.png);
+    background-size: cover;
+}
+
+.fitness-and-lifestyle-flex-content-picsfourupdate {
+    background-image: url(../assess/exercise.png);
+}
+/* update page ends here */
+/* explore baby care */
+
+.blogsbabycare {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assess/baby-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 296px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.blogsbabycare-content {
+    padding-top: 87.5px;
+    text-align: center;
+}
+
+.blogsbabycare-content-text {
+    font-family: var(--fontfamily);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.blogsbabycare-content-text-content-picsupdate {
+    background-image: url(../assess/brett-wharton-7dMqr31WYmo-unsplash\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blogs-babycare-content-text-two {
+    margin-top: 16px;
+}
+
+.blogsbabycare-content-text-content-picsupdatetwo {
+    background-image: url(../assess/diaper.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blogsbabycare-content-text-content-picsupdatethree {
+    background-image: url(../assess/diaper-a.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blogsbabycare-content-text-content-picsupdatefour {
+    background-image: url(../assess/childhealth.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blogsbabycare-content-text-content-picsupdatefive {
+    background-image: url(../assess/babycare.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blogsbabycare-content-text-content-picsupdatesix {
+    background-image: url(../assess/babydiet.png);
+    background-size: cover;
+    background-position: center;
+}
+/* babycare page ends here */
+/* postpatrum new update page */
+
+.blogspostpartumcare {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assess/postpatrum.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 261px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.blogspostpartumcare-content-text {
+    color: rgba(252, 252, 252, 1);
+}
+
+.postpartumblog {
+    margin-top: 73px;
+}
+
+.postpartumblog-text-header {
+    width: 843px;
+    margin-bottom: 18px;
+    font-family: var(--fontfamily);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.postpartumblog-flex-header {
+    margin-bottom: 38px;
+    display: flex;
+}
+
+.postpartumblog-flex-header-ellipse {
+    background-image: url(../assess/Ellipse\ 4.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 48px;
+}
+
+.postpartumblog-flex-header p {
+    font-family: var(--fontfamily);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: rgba(79, 79, 79, 1);
+}
+
+.postpartumblog-flex-header-ellipse-text {
+    margin-left: 13px;
+    align-self: center;
+}
+
+.postpartum-article-flex {
+    display: flex;
+}
+
+.postpartum-article-flex-one-one {
+    background-image: url(../assess/Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 535px;
+    width: 819px;
+    border-radius: 8px;
+}
+
+.postpartum-article-flex-one-two {
+    width: 813px;
+    margin-top: 68px;
+    font-family: var(--fontfamily);
+}
+
+.postpartum-article-flex-one-two p {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: rgba(20, 16, 16, 1);
+}
+
+.postpartum-article-flex-one-two h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: rgba(20, 16, 16, 1);
+}
+
+.postpartum-article-flex-one-two h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: rgba(20, 16, 16, 1);
+}
+
+.postpartum-article-flex-two {
+    margin-left: 24px;
+    font-family: var(--fontfamily);
+}
+
+.postpartum-article-flex-two-header {
+    margin-bottom: 20.5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: #0d6efd;
+}
+
+.postpartum-article-flex-two-header-flex {
+    /*width: 356px;*/
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.postpartum-article-flex-two-header-flex-one {
+    height: 142px;
+    width: 100px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.postpartum-article-flex-two-header-flex-onea {
+    background-image: url(../assess/top1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.postpartum-article-flex-two-header-flex-two {
+    margin-left: 8px;
+}
+
+.postpartum-article-flex-two-header-flex-two-post {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(13, 110, 253, 1);
+}
+
+.postpartum-article-flex-two-header-flex-two-header {
+    margin-top: 2px;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(79, 79, 79, 1);
+}
+
+.postpartum-article-flex-two-header-flex-two-headerfive {
+    height: 45px;
+    width: 248px;
+    margin: 2px 0px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+.postpartum-article-flex-two-header-flex-two-paragraph {
+    height: 36px;
+    width: 215px;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+}
+
+.postpartum-article-flex-two-header-flex-two-link a{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-decoration: none;
+}
+
+.postpartum-article-flex-two-header-flex-two-link span {
+    margin-left: 5px;
+}
+
+.postpartum-article-flex-two-header-flex-oneb {
+    background-image: url(../assess/top2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.postpartum-article-flex-two-header-flex-two-headerfiveone {
+    margin: 2px 0px;
+    height: 30px;
+    width: 248px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.postpartum-article-flex-two-header-flex-onec {
+    background-image: url(../assess/top3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.postpartum-article-flex-two-header-community {
+    background-color: rgba(207, 226, 255, 1);
+    border-radius: 4px;
+}
+
+.postpartum-article-flex-two-header-community-block {
+    padding: 63px 53px 42px 53px;
+    text-align: center;
+    font-family: var(--fontfamily);
+}
+
+.postpartum-article-flex-two-header-community-block p {
+    height: 180px;
+    width: 210px;
+    margin: auto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.postpartum-article-flex-two-header-community-block-button {
+    margin-top: 21px;
+}
+
+.postpartum-article-flex-two-header-community-block-button a {
+    background-color: rgba(13, 110, 253, 1);
+    width: 166px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: var(--fontfamily2);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.relatedarticles {
+    margin: 64px 0px 70px 0px;
+    font-family: var(--fontfamily);
+}
+
+.related-articles-content-text {
+    width: 794px;
+    padding-bottom: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    border-bottom: 1.5px solid #3586FD;
+    color: rgba(20, 16, 16, 1);
+}
+
+.related-articles-content-articles {
+    margin-top: 42px;
+    font-family: var(--fontfamily);
+}
+
+.related-articles-content-articles-text {
+    margin-bottom: 57.5px;
+    color: rgba(79, 79, 79, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.related-articles-content-articles-flex {
+    height: 206px;
+    margin-bottom: 35px;
+    /*width: 803px;*/
+    display: flex;
+}
+
+.related-articles-content-articles-flex-one {
+    height: 203px;
+    width: 284px;
+    border-radius: 8px;
+}
+
+.related-articles-content-articles-flex-one {
+    background-image: url(../assess/articlescreen1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.related-articles-content-articles-flex-two {
+    margin-left: 24px;
+}
+
+.related-articles-content-articles-flex-two-textone {
+    margin-bottom: 11.5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: rgba(79, 79, 79, 1);
+}
+
+.related-articles-content-articles-flex-two-texttwo {
+    width: 495px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.related-articles-content-articles-flex-two-textthree {
+    width: 491px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: rgba(79, 79, 79, 1);
+}
+
+.related-articles-content-articles-flex-oneb {
+    background-image: url(../assess/brett-wharton-7dMqr31WYmo-unsplash\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.related-articles-content-articles-flex-onec {
+    background-image: url(../assess/articlescreen3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Postpartum ends here */
+/* fitness and lifestyle page */
+
+.fitnessandlifestyle {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assess/fitness-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 296px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.fitnessandlifestyle-article-flex-one-one {
+    background-image: url(../assess/fitnessandlifestyle.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 535px;
+    width: 819px;
+    border-radius: 8px;
+}
+
+.fitnessandlifestyle-article-flex-one-oneb {
+    background-image: url(../assess/fitnessandlifestyle2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 535px;
+    width: 819px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.fitnessandlifestyle-bulleted-list li {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: rgba(0, 0, 0, 1);
+}
+
+.fitnessandlifestyle-bulleted-list span {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+}
+/* fitness and lifestyle ends here */
+/* diapering page */
+
+.postpartumblog-flex-header-ellipsea {
+    background-image: url(../assess/blogger.png);
+}
+
+.diapering-article-span-text span {
+    font-size: 64px;
+}
+
+.babycare-article-flex-one-one {
+    background-image: url(../assess/babycare.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 535px;
+    width: 819px;
+    border-radius: 8px;
+}
+
+.diapering-bulleted-list li {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: rgba(0, 0, 0, 1);
+}
+
+.diapering-bulleted-list span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: justify;
+}
+
+.diapering-bulleted-header {
+    padding-top: 20px;
+}
+
+.diapering-image-bulleted-list {
+    height: 286.77044677734375px;
+    width: 439px;
+    border-radius: 2.977914810180664px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+.diapering-image-bulleted-listone {
+    background-image: url(../assess/diaper-article.png);
+}
+
+.diapering-image-bulleted-listtwo {
+    background-image: url(../assess/diaper-article1.png);
+}
+
+.diapering-image-bulleted-listthree {
+    background-image: url(../assess/diaper-article2.png);
+}
+
+.diapering-articles-content-articles-flex-onea {
+    background-image: url(../assess/diaper-a.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.diapering-articles-content-articles-flex-oneb {
+    background-image: url(../assess/diaper.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* diaper page ends here */
+/* Nutrition page starts here */
+.nutritionblogs {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assess/nutrition-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 261px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.postpartumblog-flex-header-ellipsenutrition {
+    background-image: url(../assess/blogger2.png);
+}
+
+.nutrition-article-flex-one-one {
+    background-image: url(../assess/meal-plan.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 535px;
+    width: 819px;
+    border-radius: 8px;
+}
+
+/* postpartum article */
+
+.postpartumarticle-article-flex-one-one {
+    background-image: url(../assess/postpartarticle.png);
+}
+
+.postpartumarticle-flex-header-ellipse {
+    background-image: url(../assess/blogger3.png);
+}
+
+.postpartumarticle-article-flex-one-oneb {
+    background-image: url(../assess/postpartumarticle2.png);
+}
+
+/*community page */
+
+.communitySection {
+    font-family: var(--fontfamily);
+}
+
+.community-form-input input{
+    background-color: transparent;
+    width: 608px;
+    padding: 11px 10.02px 13px 44px;
+    outline: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 20px;
+    color: var(--graycolor2);
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.community-form-input {
+    padding-top: 43px;
+    text-align: center;
+}
+
+.search-icon {
+    text-indent: -60px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-search-community {
+    color: rgba(255, 219, 236, 1);
+}
+
+.lettalk-button {
+    background-color: var(--signuptextcolor);
+    margin-left: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--whitecolor);
+    border: none;
+    border-radius: 8px;
+}
+/*community page ends here*/
+/* community profile new section starts here*/
+
+.community-profile-news {
+    margin: 77px 0px 60px 0px;
+}
+
+.community-profile-news-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.community-profile-news-userprofile {
+    width: 215px;
+    height: 580px;
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12)
+}
+
+.community-profile-news-userprofile-section {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    color: var(--graycolor);
+}
+
+.community-profile-news-userprofile-section img {
+    height: 48px;
+    width: 48px;
+    border-radius: 40px;
+}
+
+.community-profile-news-userprofile-section span {
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+}
+
+.community-user-name-profile {
+    margin-bottom: 8px;
+    padding: 12px 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.community-profile-text-link {
+    margin-bottom: 8px;
+    padding: 12px 0px;
+}
+
+.community-profile-text-link:hover {
+    background-color: rgba(255, 134, 190, 1);
+}
+
+.community-profile-text-link a:hover {
+    color: rgba(252, 252, 252, 1);
+}
+
+.community-profile-text-link a {
+    text-decoration: none;
+}
+
+.community-profile-text-link-list {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: rgba(79, 79, 79, 0.9);
+}
+
+.log-out-form button {
+    background-color: transparent;
+    padding: 12px 0px;
+    border: none;
+    outline: none;
+}
+
+.log-out-form span {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(79, 79, 79, 0.9);
+}
+
+.log-out-form:hover {
+    background-color: rgba(255, 134, 190, 1);
+}
+
+.log-out-form button span:hover {
+    color: rgba(252, 252, 252, 1);
+}
+/* community profile new section ends here*/
+/* ask a question section starts here*/
+.ask-a-question-tags {
+    width: 291px;
+    margin-left: 38px;
+    padding-top: 12px;
+}
+
+.ask-a-question-tags-member {
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ask-a-question-tags-member-flex-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.online-active-color {
+    color: rgba(39, 174, 96, 1);
+}
+
+.population-of-members {
+    color: rgba(255, 164, 206, 1);
+}
+
+.ask-a-question-tags-questions {
+    background-color: var(--signuptextcolor);
+    padding: 12px 85.5px;
+    border-radius: 8px;
+}
+
+.ask-a-question-tags-questions a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: var(--whitecolor);
+}
+
+.ask-a-question-tags-trending {
+    margin: 40px 0px 52px 0px;
+    padding: 11.5px 94px 11.5px 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.ask-a-question-tags-trending-one {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: var(--graycolor);
+}
+
+.ask-a-question-tags-trending-two {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--graycolor);
+}
+
+.ask-a-question-tags-trending-two span {
+    font-weight: 400;
+    color: rgba(53, 134, 253, 1);
+}
+
+.trending-topics {
+    margin-bottom: 16px;
+}
+
+.ask-a-question-tags-populartags {
+    padding: 12px 12px 12px 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.ask-a-question-tags-populartags-text {
+    margin-bottom: 22px;
+    color: var(--graycolor);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.ask-a-question-tags-populartags-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ask-a-question-tags-populartags-flex p {
+    padding: 5px 10px;
+    font-family: var(--fontfamily2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(13, 110, 253, 0.5);
+    border: 1px solid rgba(13, 110, 253, 0.5);
+    border-radius: 8px;
+}
+
+.ask-a-question-tags-populartags-flex-margin {
+    margin-bottom: 10px;
+}
+
+.ask-a-question-tags-populartags-flex-margin-right {
+    margin: 0px 13px;
+}
+
+/* Ask a question section ends here */
+/* cmmunity profile filter starts here */
+
+.community-profile-news-filters {
+    margin-left: 37px;
+    font-family: var(--fontfamily);
+}
+
+.community-filters-section-array {
+    margin-top: 32px;
+}
+
+.community-filters-section-list {
+    width: 632px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 8px 0px 8px 16px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    color: var(--graycolor);
+}
+
+.community-filters-section {
+    display: flex;
+    justify-content: center;
+}
+
+.community-filters-section li {
+    width: 187px;
+    padding: 8px;
+    text-align: center;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(130, 130, 130, 1);
+}
+
+.community-filters-section li:hover {
+    color: rgba(53, 134, 253, 1);
+    cursor: pointer;
+} 
+
+.community-filters-section-list-profile {
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.community-filters-section-list-profile-img {
+    height: 32px;
+    width: 32px;
+    border-radius: 40px;
+}
+
+.community-filters-section-list-profile-flex {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.community-filters-section-list-profile-name {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.community-filters-section-list-profile-time {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: rgba(130, 130, 130, 1);
+}
+
+.community-filters-section-list-comment {
+    width: 579px;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.community-filters-section-list-links {
+    display: flex;
+}
+
+.community-filters-section-list-links a {
+    margin-right: 64px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 134, 190, 1);
+}
+
+.community-filters-section-array-button {
+    text-align: center;
+}
+
+.community-filters-section-array-button button {
+    background-color: rgba(255, 255, 255, 1);
+    width: 433px;
+    margin-top: 12px;
+    padding: 16px 32px;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    border-radius: 8px;
+    border: 1px solid #0D6EFD;
+    color: rgba(13, 110, 253, 1);
+}
+
+.community-filters-section-array {
+    max-height: 500px;
+}
+
+/**/
+.answered-filters-section-array {
+    background-color: rgba(252, 252, 252, 1);
+}
+
+.answered-filters-section-list-comment {
+    width: 579px;
+    padding: 20px 0px 20px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.answered-filters-section-list {
+    width: 594px;
+    margin-left: 12px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.answered-filters-section-list-profile {
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.answered-filters-section-list-profile-flex {
+    display: flex;
+}
+
+.community-filters-section-list-profile-arrow {
+    padding-right: 35.5px;
+}
+
+.answered-filters-section-list-replies {
+    padding: 21px 0px 13px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fontfamily);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.answered-filters-section-list-replies-links {
+    color: rgba(255, 134, 190, 1);
+}
+
+.answered-filters-section-list-links {
+    margin: 13px 0px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.answered-filters-section-list-links img {
+    padding-right: 25.71px;
+}
+
+.answered-filters-section-list-links button {
+    background-color: transparent;
+    border: none;
+    font-family: var(--fontfamily);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: rgba(130, 130, 130, 1);
+}
+
+.comment-button {
+    color: #5E9EFE;
+}
+
+.answered-filters-section-list-comment {
+    width: 574px;
+    padding: 16px 0px 0px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+}
+
+.answered-comment-filters-section-list-links {
+    margin: 13px 20.82px 29px 0px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: flex-end;
+    /*justify-content: space-between;*/
+}
+
+.answered-comment-filters-section-list-links img {
+    padding-right: 25.71px;
+}
+
+.answered-comment-filters-section-list-links button {
+    background-color: transparent;
+    border: none;
+    font-family: var(--fontfamily);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: rgba(130, 130, 130, 1);
+}
+
+.like-comment-button {
+    padding-right: 62.25px;
+}
+
+.answered-reply-reply-filters-section-list {
+    width: 448px;
+    margin-left: 153px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.answered-filters-reply-section-list-comment {
+    margin-top: 13px;
+    padding: 16px 0px 9.5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+.answered-filters-section-array-button {
+    text-align: center;
+}
+
+.answered-filters-section-array-button button {
+    background-color: transparent;
+    padding: 5px 32px;
+    font-family: var(--fontfamily2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(13, 110, 253, 1);
+    border: 1px solid #0D6EFD;
+    border-radius: 8px;
+}
+
+/* post page ends here */
+
+.profile-profile-news-filters {
+    margin: 27px 0px 0px 27px;
+    font-family: var(--fontfamily);
+}
+
+.profile-filters-section {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.profile-filters-section li {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(79, 79, 79, 1);
+}
+
+.list-margin-right {
+    margin-right: 34px;
+}
+
+.profile-filters-section li:hover {
+    color: rgba(13, 110, 253, 1);
+    cursor: pointer;
+}
+
+.profile-profile-news-filters-section-text {
+    margin: 38px 0px 20px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(20, 16, 16, 1);
+}
+
+.profile-profile-news-filters-section-text-form {
+    display: flex;
+}
+
+.profile-profile-news-filters-section-text-form-img {
+    background-color: #0D6EFD;
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.profile-profile-news-filters-section-text-form-button {
+    margin-left: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.profile-profile-news-filters-section-text-form-button button {
+    width: 186px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.change-button {
+    background-color: rgba(13, 110, 253, 1);
+    margin-bottom : 26px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.delete-button {
+    background-color: transparent;
+    color: rgba(13, 110, 253, 1);
+    border: 1px solid #0D6EFD;
+}
+
+.profile-profile-news-filters-section-forms {
+    margin-top: 46px;
+}
+
+.profile-profile-news-filters-section-forms-flex {
+    display: flex;
+}
+
+.profile-profile-news-filters-section-forms span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(20, 16, 16, 1);
+}
+
+.profile-profile-news-filters-section-forms-flex p {
+    margin-right: 20px;
+}
+
+.profile-profile-news-filters-section-forms-flex input {
+    width: 292px;
+    margin-top: 10px;
+    padding: 9px 0px 9px 26px;
+    border-radius: 8px;
+    border: 1px solid #FF499E;
+}
+
+.profile-profile-news-filters-section-forms-input {
+    margin-top: 25px;
+}
+
+.profile-profile-news-filters-section-forms-input input {
+    width: 421px;
+    margin-top: 10px;
+    padding: 9px 0px 9px 26px;
+    border-radius: 8px;
+    border: 1px solid #FF499E;
+}
+
+.profile-profile-news-filters-section-forms-textarea {
+    margin-top: 25px;
+}
+
+.profile-profile-news-filters-section-forms-textarea textarea {
+    width: 616px;
+    margin-top: 10px;
+    padding: 11px 0px 86px 26px;
+    border-radius: 8px;
+    border: 1px solid #FF499E;
+}
+
+.profile-profile-news-filters-section-text-form-button-b {
+    margin: 25px 0px;
+}
+
+.profile-profile-news-filters-section-text-form-button-b button {
+    width: 186px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.update-profile-button {
+    background-color: rgba(13, 110, 253, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.reset-profile-button {
+    background-color: transparent;
+    margin-left: 129px;
+    border: 1px solid #0D6EFD;
+    color: rgba(13, 110, 253, 1);
+}
