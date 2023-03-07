@@ -32,7 +32,7 @@
                             <li><a href="index.php">Home</a></li>
                             <li><a href="#aboutus">About Us</a></li>
                             <li><a href="./blog/blog.php">Blog</a></li>
-                            <li><a href="./user/login.html">Community</a></li>
+                            <li><a href="./user/login.php">Community</a></li>
                             <li><a href="#contactus">Contact Us</a></li>
                         </ul>
                     </div>
