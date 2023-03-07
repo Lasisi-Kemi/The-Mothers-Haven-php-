@@ -28,14 +28,14 @@
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html">About Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="login.html">Community</a></li>
-                            <li><a href="index.html">Contact Us</a></li>
+                            <li><a href="../index.php">Home</a></li>
+                            <li><a href="../index.php">About Us</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="../user/login.php">Community</a></li>
+                            <li><a href="../index.php">Contact Us</a></li>
                         </ul>
                     </div>
-                    <p class="nav-bar-tmh-links-signup"><a href="signup.html">Sign Up</a></p>
+                    <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
                 </nav>
             </div>
         </header>
@@ -45,7 +45,7 @@
             <div class="blogsbabycare-content">
                 <p class="blogsbabycare-content-text">Baby Care</p>
                 <div class="home-update-blog">
-                    <span><a class="home-update-blog-link" href="blog.html">Home / </a><span><a href="#">Baby Care</a></span></span>
+                    <span><a class="home-update-blog-link" href="blog.php">Home / </a><span><a href="#">Baby Care</a></span></span>
                 </div>
             </div>
         </section>
@@ -129,7 +129,7 @@
                                         something that...
                                     </p>
                                     <div class="fitness-and-lifestyle-flex-content-text-link">
-                                        <a href="diapering.html">Read more <span><img src="./assess/arrow3.svg"></span></a>
+                                        <a href="diapering.php">Read more <span><img src="./assess/arrow3.svg"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
             <div class="max_width">
                 <div class="footer-flex-content">
                     <div class="footer-flex-content-one">
-                        <a href="index.html"><div class="footer-flex-content-one-logo">
+                        <a href="../index.php"><div class="footer-flex-content-one-logo">
                             
                         </div></a>
                         <div class="footer-flex-content-one-text">
@@ -185,25 +185,25 @@
                         </div>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="index.html">ABOUT US</a></p>
-                        <p><a href="blog.html">Our Blog</a></p>
-                        <p><a href="login.html">Join Community</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../index.php">ABOUT US</a></p>
+                        <p><a href="blog.php">Our Blog</a></p>
+                        <p><a href="../user/login.php">Join Community</a></p>
                         <p><a href="#">Speak to Experts</a></p>
                         <p><a href="#">Terms of Use</a></p>
                         <p><a href="#">Privacy Policy</a></p>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="blog.html">BLOG POSTS</a></p>
-                        <p><a href="postpartum.html">Postpartum Care</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="blog.php">BLOG POSTS</a></p>
+                        <p><a href="postpartum.php">Postpartum Care</a></p>
                         <p><a href="#">Parenting</a></p>
-                        <p><a href="babycare.html">Childcare</a></p>
-                        <p><a href="nutrition.html">Nutrition</a></p>
-                        <p><a href="fitness.html">Fitness and Diet</a></p>
+                        <p><a href="babycare.php">Childcare</a></p>
+                        <p><a href="nutrition.php">Nutrition</a></p>
+                        <p><a href="fitness.php">Fitness and Diet</a></p>
                         <p><a href="#">Child Health</a></p>
                         <p><a href="#">Mother Health</a></p>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="index.html">Connect with Us</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../index.php">Connect with Us</a></p>
                         <p><a  href="tel:+2348123498576">+(234)8123498576</a></p>
                         <p><a href="tel:+2348022453363">+(234)8022453363</a></p>
                         <p><a href="mailto:themothershaven@gmail.com">themothershaven@gmail.com</a></p>

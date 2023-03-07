@@ -5,15 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Blog</title>
-        <link rel="stylesheet" href="./assess/vendors/aos/aos.css" />
-        <link rel="icon" type="access/png" href="assess/favicon.png">
+        <link rel="stylesheet" href="../assess/vendors/aos/aos.css" />
+        <link rel="icon" type="access/png" href="../assess/favicon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="./style/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <link rel="stylesheet" type="text/css" href="../style/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -29,14 +29,14 @@
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html">About Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="login">Community</a></li>
-                            <li><a href="index.html">Contact Us</a></li>
+                            <li><a href="../index.php">Home</a></li>
+                            <li><a href="../index.php">About Us</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="../user/login.php">Community</a></li>
+                            <li><a href="../index.php">Contact Us</a></li>
                         </ul>
                     </div>
-                    <p class="nav-bar-tmh-links-signup"><a href="signup.html">Sign Up</a></p>
+                    <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
                 </nav>
             </div>
         </header>
@@ -72,7 +72,7 @@
                                 </p>
                                 <div class="new-updates-section-flex-flex-flex">
                                     <p><span>5 Min Read</span> . <span>4 days Ago</span></p>
-                                    <p><a class="new-updates-section-flex-flex-flex-text" href="postpartum.html">Read more<span><img src="./assess/arrow.svg"></span></a></p>
+                                    <p><a class="new-updates-section-flex-flex-flex-text" href="postpartum.php">Read more<span><img src="./assess/arrow.svg"></span></a></p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                                 </p>
                                 <div class="new-updates-section-flex-flex-flex">
                                     <p><span>5 Min Read</span> . <span>4 days Ago</span></p>
-                                    <p><a class="new-updates-section-flex-flex-flex-text" href="diapering.html">Read more<span><img src="./assess/arrow.svg"></span></a></p>
+                                    <p><a class="new-updates-section-flex-flex-flex-text" href="diapering.php">Read more<span><img src="./assess/arrow.svg"></span></a></p>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                                 <div class="picture-frame-content baby-care-picture">
         
                                 </div>
-                                <a href="babycare.html"><div class="picture-frame-text">
+                                <a href="babycare.php"><div class="picture-frame-text">
                                     <p class="picture-frame-text-one">Baby Care</p>
                                     <p class="picture-frame-text-two">Whether you're a first-time mum or a seasoned pro, 
                                         our comprehensive guide will help you feel confident 
@@ -129,7 +129,7 @@
                                 <div class="picture-frame-content post-partum-picture">
         
                                 </div>
-                                <a href="postpartumarticle.html"><div class="picture-frame-text">
+                                <a href="postpartumarticle.php"><div class="picture-frame-text">
                                     <p class="picture-frame-text-one">Postpartum Care</p>
                                     <p class="picture-frame-text-two">Our expert advice covers everything from postpartum recovery, 
                                         nutrition to managing stress, sleep deprivation, and the many 
@@ -142,7 +142,7 @@
                                 <div class="picture-frame-content nutrition-care-picture">
         
                                 </div>
-                                <a href="nutrition.html"><div class="picture-frame-text">
+                                <a href="nutrition.php"><div class="picture-frame-text">
                                     <p class="picture-frame-text-one">Nutrition</p>
                                     <p class="picture-frame-text-two">Nourishing the body and mind, we provide  essential 
                                         nutrition tips and advice for postnatal recovery and 
@@ -154,7 +154,7 @@
                                 <div class="picture-frame-content fitness-lifestyle-picture">
         
                                 </div>
-                                <a href="fitness.html"><div class="picture-frame-text">
+                                <a href="fitness.php"><div class="picture-frame-text">
                                     <p class="picture-frame-text-one">Fitness and Lifestyle</p>
                                     <p class="picture-frame-text-two">Discover how to prioritize your physical and mental well-being 
                                         while juggling the demands of caring for a new baby. 
@@ -169,7 +169,7 @@
                                 <div class="picture-frame-content fitness-lifestyle-picture">
         
                                 </div>
-                                <a href="fitness.html"><div class="picture-frame-text">
+                                <a href="fitness.php"><div class="picture-frame-text">
                                     <p class="picture-frame-text-one">Fitness and Lifestyle</p>
                                     <p class="picture-frame-text-two">Discover how to prioritize your physical and mental well-being 
                                         while juggling the demands of caring for a new baby. 
@@ -180,7 +180,7 @@
                                 <div class="picture-frame-content post-partum-picture">
         
                                 </div>
-                                <a href="postpartumarticle.html"><div class="picture-frame-text">
+                                <a href="postpartumarticle.php"><div class="picture-frame-text">
                                     <p class="picture-frame-text-one">Postpartum Care</p>
                                     <p class="picture-frame-text-two">Our expert advice covers everything from postpartum recovery, 
                                         nutrition to managing stress, sleep deprivation, and the many 
@@ -192,7 +192,7 @@
                                 <div class="picture-frame-content nutrition-care-picture">
             
                                 </div>
-                                <a href="nutrition.html"><div class="picture-frame-text">
+                                <a href="nutrition.php"><div class="picture-frame-text">
                                     <p class="picture-frame-text-one">Nutrition</p>
                                     <p class="picture-frame-text-two">Nourishing the body and mind, we provide  essential 
                                         nutrition tips and advice for postnatal recovery and 
@@ -204,7 +204,7 @@
                                 <div class="picture-frame-content baby-care-picture">
         
                                 </div>
-                                <a href="babycare.html"><div class="picture-frame-text">
+                                <a href="babycare.php"><div class="picture-frame-text">
                                     <p class="picture-frame-text-one">Baby Care</p>
                                     <p class="picture-frame-text-two">Whether you're a first-time mum or a seasoned pro, 
                                         our comprehensive guide will help you feel confident 
@@ -336,7 +336,7 @@
                             </div>
                         </div>
                         <div class="fitness-and-lifestyle-flex-button">
-                            <p><a href="update.html">See More <span><img src="./assess/arrow2.svg"></span></a></p>
+                            <p><a href="update.php">See More <span><img src="./assess/arrow2.svg"></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -362,7 +362,7 @@
             <div class="max_width">
                 <div class="footer-flex-content">
                     <div class="footer-flex-content-one">
-                        <a href="index.html"><div class="footer-flex-content-one-logo">
+                        <a href="../index.php"><div class="footer-flex-content-one-logo">
                             
                         </div></a>
                         <div class="footer-flex-content-one-text">
@@ -374,24 +374,24 @@
                     </div>
                     <div class="footer-flex-content-links">
                         <p class="footer-flex-content-links-headers"><a href="index.html">ABOUT US</a></p>
-                        <p><a href="blog.html">Our Blog</a></p>
-                        <p><a href="login.html">Join Community</a></p>
+                        <p><a href="blog.php">Our Blog</a></p>
+                        <p><a href="../user/login.php">Join Community</a></p>
                         <p><a href="#">Speak to Experts</a></p>
                         <p><a href="#">Terms of Use</a></p>
                         <p><a href="#">Privacy Policy</a></p>
                     </div>
                     <div class="footer-flex-content-links">
-                        <p class="footer-flex-content-links-headers"><a href="blog.html`">BLOG POSTS</a></p>
-                        <p><a href="postpartum.html">Postpartum Care</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="blog.php">BLOG POSTS</a></p>
+                        <p><a href="postpartum.php">Postpartum Care</a></p>
                         <p><a href="#">Parenting</a></p>
-                        <p><a href="babycare.html">Childcare</a></p>
-                        <p><a href="nutrition.html">Nutrition</a></p>
-                        <p><a href="fitness.html">Fitness and Diet</a></p>
+                        <p><a href="babycare.php">Childcare</a></p>
+                        <p><a href="nutrition.php">Nutrition</a></p>
+                        <p><a href="fitness.php">Fitness and Diet</a></p>
                         <p><a href="#">Child Health</a></p>
                         <p><a href="#">Mother Health</a></p>
                     </div>
                     <div class="footer-flex-content-links" id="contactus">
-                        <p class="footer-flex-content-links-headers"><a href="index.html">Connect with Us</a></p>
+                        <p class="footer-flex-content-links-headers"><a href="../index.php">Connect with Us</a></p>
                         <p><a  href="tel:+2348123498576">+(234)8123498576</a></p>
                         <p><a href="tel:+2348022453363">+(234)8022453363</a></p>
                         <p><a href="mailto:themothershaven@gmail.com">themothershaven@gmail.com</a></p>
