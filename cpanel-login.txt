@@ -1,0 +1,12 @@
+41.190.3.81/32
+
+
+tmh.infinityfreeapp.com
+Username: epiz_33742070
+Password: CZIgnpLTL9s
+
+Database
+$host = localhost
+$username = id20414867_root
+$password = p7@H)eD/[FzDT&H4
+$name = id20414867_tmh

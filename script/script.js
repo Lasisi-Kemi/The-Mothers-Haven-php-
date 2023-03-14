@@ -3,6 +3,7 @@ let changeColor;
 let selectedInterest = [];
 let selectedProfile = [];
 let backToTop;
+let askQuestion;
 
 window.addEventListener('load', () => {
     AOS.init({
@@ -126,21 +127,6 @@ for(let i=0; i<profileFilters.length; i++) {
     });
 }
 
-/*function myInterest(val) {
-    if (selectedInterest.includes(val)){
-        delete selectedInterest[selectedInterest.indexOf(val)]
-        selectedInterest.length = selectedInterest.length - 1
-        let changeColor = document.getElementById(`interest-${val}`);
-            changeColor.style.backgroundColor = "#ffffff";
-    } else {
-        if( selectedInterest.length < 5){
-           let changeColor = document.getElementById(`interest-${val}`);
-            changeColor.style.backgroundColor = "#00FF00";
-            selectedInterest.push(val)
-        }
-    }
-}*/
-
 let navbar = document.querySelector('#nav');
 window.addEventListener('scroll', () => {
   let position = window.scrollY
@@ -151,3 +137,15 @@ window.addEventListener('scroll', () => {
       navbar.classList.remove("scrolled")
   }
 })
+
+function askQuestionPrompt (){
+    prompt('Let us know what is bothering you')
+}
+
+function setUp (){
+    askQuestion = document.querySelector('.ask-a-question-tags-questions');
+
+    askQuestion.addEventListener('click', askQuestionPrompt);
+}
+
+setUp();
