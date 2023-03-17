@@ -41,11 +41,12 @@ if(isset($_SESSION['user_id'])) {
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="../index.php">Home</a></li>
-                            <li><a href="../index.php">About Us</a></li>
-                            <li><a href="../blog/blog.php">Blog</a></li>
-                            <li><a href="../user/login.php">Community</a></li>
-                            <li><a href="../index.php">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Home</a></li>
+                            <li class="header-list"><a href="../index.php">About Us</a></li>
+                            <li class="header-list"><a href="../blog/blog.php">Blog</a></li>
+                            <li class="header-list"><a href="login.php">Community</a></li>
+                            <li class="header-list"><a href="#contactus">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Book an appointment</a></li>
                         </ul>
                     </div>
                     <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
@@ -53,7 +54,7 @@ if(isset($_SESSION['user_id'])) {
             </div>
         </header>
         <!--Header ends here-->
-       <section class="communitySection" style="margin-top: 100px; background: #FCFCFC;">
+       <section class="communitySection">
         <div class="max_width">
             <!--Search section starts here-->
             <form class="community-form-input">
@@ -82,7 +83,7 @@ if(isset($_SESSION['user_id'])) {
                         </p>
                         <p class="community-profile-text-link">
                             <img src="../assess/notification.svg">
-                            <a href="" class="community-profile-text-link-list">Notifications</a>
+                            <a href="otherprofile.php#notification" class="community-profile-text-link-list">Notifications</a>
                         </p>
                         <p class="community-profile-text-link">
                             <img src="../assess/question.svg">
@@ -102,7 +103,7 @@ if(isset($_SESSION['user_id'])) {
                         </p>
                         <p class="community-profile-text-link">
                             <img src="../assess/setting.svg">
-                            <a href="" class="community-profile-text-link-list">Settings</a>
+                            <a href="otherprofile.php#setting" class="community-profile-text-link-list">Settings</a>
                         </p>
                         <form class="log-out-form">
                             <button>
@@ -114,26 +115,25 @@ if(isset($_SESSION['user_id'])) {
                     <!--community profile news userprofile ends here-->
                     <div class="profile-profile-news-filters" id="profile-profile-news-filters">
                         <ul id="profile-filter" class="profile-filters-section">
-                            <li class="list-margin-right" data-filter="Viewprofile" class="active">View profile</li>
-                            <li class="list-margin-right" data-filter="Notifications">Notifications</li>
-                            <li class="list-margin-right" data-filter="Settings">Settings</li>
-                            <li data-filter="Privacypolicy">Privacy policy</li>
+                            <li><a href="profile.html" class="current-cat" data-filter="">View profile</a></li>
+                            <li><a href="otherprofile.php#notification" data-filter="">Notification</a></li>
+                            <li><a href="otherprofile.php#setting" data-filter="">Settings</a></li>
+                            <li><a href="otherprofile.php#privacy" data-filter="">Privacy policy</a></li>
                         </ul>
                         <div class="profile-profile-news-filters-section" data-filter="Viewprofile">
                             <p class="profile-profile-news-filters-section-text">Your Profile  Picture</p>
                             <div>
-                                <form class="profile-profile-news-filters-section-text-form" action="" method="post" enctype="multipart/form-data">
+                                <form class="profile-profile-news-filters-section-text-form">
                                     <div class="profile-profile-news-filters-section-text-form-img">
 
                                     </div>
                                     <div class="profile-profile-news-filters-section-text-form-button">
-                                        <button class="change-button" type="submit" name="change" value="Change">Change picture</button>
-                                        <button class="delete-button" type="submit" name="delete" value="Delete">Delete picture</button>
-                                        <input type="file" name="image">
+                                        <input class="change-button" type="file" placeholder="Change picture">
+                                        <button class="delete-button">Delete picture</button>
                                     </div>
                                 </form>
                             </div>
-                            <form class="profile-profile-news-filters-section-forms" action="" method="post" enctype="multipart/form-data">
+                            <form class="profile-profile-news-filters-section-forms">
                                 <div class="profile-profile-news-filters-section-forms-flex">
                                     <p><span>First name</span> <br>
                                         <input type="text" name="firstname">
@@ -149,8 +149,8 @@ if(isset($_SESSION['user_id'])) {
                                     <textarea>Introduce yourself!</textarea>
                                 </p>
                                 <div class="profile-profile-news-filters-section-text-form-button-b">
-                                    <button class="update-profile-button" type="submit" name="update" value="Update">Update profile</button>
-                                    <button class="reset-profile-button" type="reset" value="Reset">Reset</button>
+                                    <button class="update-profile-button">Update profile</button>
+                                    <button class="reset-profile-button">Reset</button>
                                 </div>
                             </form>
                         </div>
@@ -160,14 +160,9 @@ if(isset($_SESSION['user_id'])) {
                         <div class="ask-a-question-tags-member">
                             <div class="ask-a-question-tags-member-flex">
                                 <img src="../assess/period.svg">
-                                <span class="ask-a-question-tags-member-flex-text online-active-color"><?php
-                                if ($is_online) {
-                                  echo "Online";
-                                } else {
-                                  echo "Offline";
-                                }
-                                ?>
-                            <p class="population-of-members ask-a-question-tags-member-flex-text"><?php echo $num_users . " " . "Member(s)" ?></p>
+                                <span class="ask-a-question-tags-member-flex-text online-active-color">online</span>
+                            </div>
+                            <p class="population-of-members ask-a-question-tags-member-flex-text">8,560 members</p>
                         </div>
                     </div>
                     <!--ask a question tags ends here-->

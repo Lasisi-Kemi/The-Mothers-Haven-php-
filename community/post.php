@@ -28,10 +28,11 @@
                     <div class="nav-bar-tmh-links">
                         <ul>
                         <li><a href="../index.php">Home</a></li>
-                            <li><a href="../index.php">About Us</a></li>
-                            <li><a href="../blog/blog.php">Blog</a></li>
-                            <li><a href="../user/login.php">Community</a></li>
-                            <li><a href="#contactus">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">About Us</a></li>
+                            <li class="header-list"><a href="../blog/blog.php">Blog</a></li>
+                            <li class="header-list"><a href="../user/login.php">Community</a></li>
+                            <li class="header-list"><a href="#contactus">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Book an appointment</a></li>
                         </ul>
                     </div>
                     <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
@@ -275,8 +276,8 @@
             <i class="fas fa-arrow-up rounded-circle shadow"></i>
         </div>
         <!--script-->
-        <script src="./assess/vendors/jquery/jquery3.9.0.min.js"></script>
-        <script src="./assess/vendors/aos/aos.js"></script>
-        <script src="./script/script.js"></script>
+        <script src="../assess/vendors/jquery/jquery3.9.0.min.js"></script>
+        <script src="../assess/vendors/aos/aos.js"></script>
+        <script src="../script/script.js"></script>
     </body>
 </html>

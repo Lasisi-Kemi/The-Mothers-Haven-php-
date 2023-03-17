@@ -4,7 +4,9 @@ let selectedInterest = [];
 let selectedProfile = [];
 let backToTop;
 let askQuestion;
+let slider;
 
+//Animation
 window.addEventListener('load', () => {
     AOS.init({
      offset: 120, // offset (in px) from the original trigger point
@@ -15,6 +17,18 @@ window.addEventListener('load', () => {
      mirror: true,
     });
   });
+//animation ends here
+
+// Get all navigation links
+let navLinks = document.querySelectorAll('.navigation-links');
+navLinks.forEach(function(navLink) {
+  navLink.addEventListener('click', function() {
+    navLinks.forEach(function(link) {
+      link.classList.remove('active');
+    });
+    this.classList.add('active');
+  });
+});
 
 function myInterest(added) {
     if(selectedInterest.includes(added)) {
@@ -32,7 +46,6 @@ function myInterest(added) {
         }
     }   
 }
-
 
 /*backtotop */
 
@@ -53,17 +66,6 @@ backToTop.addEventListener("click", () => {
 })
 
 /* backtotop ends here */
-
-/*let navbar = document.querySelector('#nav');
-  window.addEventListener('scroll', () => {
-    let position = window.scrollY
-    if(position > 69) {
-        navbar.classList.add("scrolled")
-    }
-    else {
-        navbar.classList.remove("scrolled")
-    }
-})*/
 
 
 let communityFilters = document.querySelectorAll('#community-filter li'); 
@@ -93,59 +95,39 @@ for(let i=0; i<communityFilters.length; i++) {
         
         AOS.refresh()
     });
+};
+
+//jQuery('#community-filters-section-array').css("overflow-y", "scroll");
+
+
+//privacy pop up
+window.onload = function() {
+    document.getElementById('privacy-pop').style.display = 'block';
 }
 
-jQuery('#community-filters-section-array').css("overflow-y", "scroll");
-
-
-let profileFilters = document.querySelectorAll('#profile-filter li'); 
-let profileGallery = document.querySelectorAll('#profile-profile-news-filters .profile-filters-section-array .profile-filters-section-list'); 
-for(let i=0; i<profileFilters.length; i++) {
-    profileFilters[i].addEventListener('click', function(c) {
-        c.preventDefault();
-        for(let j=0; j<profileFilters.length; j++) {
-            profileFilters[j].classList.remove("active")
-        }
-        profileFilters[i].classList.add("active")
-        let dataFilter = profileFilters[i].getAttribute("data-filter")
-        for(let k=0; k<profileGallery.length; k++) {
-            if(dataFilter === "*") {
-                profileGallery[k].style.display = "flex"
-                profileGallery[k].style.flexDirection = "column" 
-            }
-            else if(profileGallery[k].getAttribute("data-filter") === dataFilter) {
-                //console.log("hmm")
-                profileGallery[k].style.display = "flex"
-                profileGallery[k].style.flexDirection = "column"
-            }
-            else {  
-                profileGallery[k].style.display = "none"   
-            }
-        }
-        
-        AOS.refresh()
-    });
-}
-
-let navbar = document.querySelector('#nav');
-window.addEventListener('scroll', () => {
-  let position = window.scrollY
-  if(position > 69) {
-      navbar.classList.add("scrolled")
-  }
-  else {
-      navbar.classList.remove("scrolled")
-  }
+document.getElementById('privacy-acknowledge').addEventListener('click', function() {
+    document.getElementById('privacy-popup').style.display = 'none'
 })
+/*privacy pop up ends here*/
 
-function askQuestionPrompt (){
-    prompt('Let us know what is bothering you')
+function askQuestionPrompt(){
+    prompt('Share with us');
 }
 
-function setUp (){
+function notificationButton() {
+    if (this.value === '1') {
+        // turn on notification
+      } else {
+        // turn off notification
+      };
+}
+
+function setUp () {
     askQuestion = document.querySelector('.ask-a-question-tags-questions');
+    slider = document.querySelector('.slider');
 
     askQuestion.addEventListener('click', askQuestionPrompt);
+    slider.addEventListener('input', notificationButton)
 }
 
 setUp();

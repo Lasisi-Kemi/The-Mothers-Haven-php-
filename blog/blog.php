@@ -29,11 +29,12 @@
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="../index.php">Home</a></li>
-                            <li><a href="../index.php">About Us</a></li>
-                            <li><a href="blog.php">Blog</a></li>
-                            <li><a href="../user/login.php">Community</a></li>
-                            <li><a href="#contactus">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Home</a></li>
+                            <li class="header-list"><a href="../index.php">About Us</a></li>
+                            <li class="header-list"><a href="blog.php">Blog</a></li>
+                            <li class="header-list"><a href="../user/login.php">Community</a></li>
+                            <li class="header-list"><a href="#contactus">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Book an appointment</a></li>
                         </ul>
                     </div>
                     <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
@@ -72,7 +73,7 @@
                                 </p>
                                 <div class="new-updates-section-flex-flex-flex">
                                     <p><span>5 Min Read</span> . <span>4 days Ago</span></p>
-                                    <p><a class="new-updates-section-flex-flex-flex-text" href="postpartum.php">Read more<span><img src="./assess/arrow.svg"></span></a></p>
+                                    <p><a class="new-updates-section-flex-flex-flex-text" href="postpartum.php">Read more<span><img src="../assess/arrow.svg"></span></a></p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +91,7 @@
                                 </p>
                                 <div class="new-updates-section-flex-flex-flex">
                                     <p><span>5 Min Read</span> . <span>4 days Ago</span></p>
-                                    <p><a class="new-updates-section-flex-flex-flex-text" href="diapering.php">Read more<span><img src="./assess/arrow.svg"></span></a></p>
+                                    <p><a class="new-updates-section-flex-flex-flex-text" href="diapering.php">Read more<span><img src="../assess/arrow.svg"></span></a></p>
                                 </div>
                             </div>
                         </div>

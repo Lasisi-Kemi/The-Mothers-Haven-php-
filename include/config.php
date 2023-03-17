@@ -2,9 +2,9 @@
 
 class Database {
     private $host = "localhost";
-    private $username = "root";
-    private $password = "";
-    private $database = "tmh";
+    private $username = "id20414867_root";
+    private $password = "p7@H)eD/[FzDT&H4";
+    private $database = "id20414867_tmh";
     private $conn;
 
     public function __construct() {

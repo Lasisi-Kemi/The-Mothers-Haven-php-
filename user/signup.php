@@ -31,12 +31,12 @@ include('../include/signup.php');
                         <p class="signupflex-one-form-texttwo">Let’s get you started on our platform</p>
                         <form action="" method="post">
                             <p class="signupflex-one-form-detail">Name <span>*</span></p>
-                            <p><input type="text" name="name" placeholder="name"></p>
+                            <p><input type="text" name="name" placeholder="Fullname" required></p>
                             
                             <p class="signupflex-one-form-detail">E-mail Address <span>*</span></p>
-                            <p><input type="email" name="email" placeholder="E-mail"></p>
+                            <p><input type="email" name="email" placeholder="E-mail" required></p>
                             <p class="signupflex-one-form-detail">Password <span>*</span></p>
-                            <p><input type="password" name="password" placeholder="Password"></p>
+                            <p><input type="password" name="password" placeholder="Password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z].{8,}" title="Must be atleast one number and one uppercase and lowercase, and at least 8 or more characters" maxlength="8" required></p>
                             <p class="signupflex-one-form-button"><button type="submit" name="submit" value="Continue">Continue</button></p>
                             <p class="signupflex-one-form-button-login">Already have an account? <a href="login.php">Login</a></p>
                         </form>

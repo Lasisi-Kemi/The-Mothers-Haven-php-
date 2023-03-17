@@ -28,11 +28,12 @@
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="../index.php">Home</a></li>
-                            <li><a href="../index.php">About Us</a></li>
-                            <li><a href="blog.php">Blog</a></li>
-                            <li><a href="../user/login.php">Community</a></li>
-                            <li><a href="#contactus">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Home</a></li>
+                            <li class="header-list"><a href="../index.php">About Us</a></li>
+                            <li class="header-list"><a href="blog.php">Blog</a></li>
+                            <li class="header-list"><a href="../user/login.php">Community</a></li>
+                            <li class="header-list"><a href="#contactus">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Book an appointment</a></li>
                         </ul>
                     </div>
                     <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>

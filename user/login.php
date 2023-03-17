@@ -29,9 +29,10 @@
                         <p class="signupflex-one-form-texttwo">Enter your details to login</p>
                         <form class="loginflex-one-form" action="" method="post">
                             <p class="signupflex-one-form-detail">E-mail Address <span>*</span></p>
-                            <p><input type="email" name="email" placeholder="E-mail"></p>
+                            <p><input type="email" name="email" placeholder="E-mail" required></p>
                             <p class="signupflex-one-form-detail">Password <span>*</span></p>
-                            <p><input type="password" name="password" placeholder="Password"></p>
+                            <p><input type="password" name="password" placeholder="Password" required></p>
+                            <p class="loginflex-forget-password"><a href="#">Forgot password?</a></p>
                             <p class="signupflex-one-form-button loginflex-one-form-button"><button type="submit" name="login" value="Login">Log In</button></p>
                             <p class="signupflex-one-form-button-login">Not Registered? <a href="signup.php">Sign up</a></p>
                         </form>

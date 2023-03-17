@@ -3,7 +3,6 @@ session_start();
 if(isset($_SESSION['user_id'])) {
 }
 ?>
-
 <!DOCTYPE Html>
 <html lang="en">
     <head>
@@ -22,11 +21,9 @@ if(isset($_SESSION['user_id'])) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
          <?php
-
         include('../include/logout.php');
         include('../include/count_users.php');
         include('../include/active_status.php');
-
         ?>
     </head>
     <body>
@@ -40,11 +37,12 @@ if(isset($_SESSION['user_id'])) {
                     </a>
                     <div class="nav-bar-tmh-links">
                         <ul>
-                            <li><a href="../index.php">Home</a></li>
-                            <li><a href="../index.php">About Us</a></li>
-                            <li><a href="../blog/blog.php">Blog</a></li>
-                            <li><a href="../user/login.php">Community</a></li>
-                            <li><a href="../index.php">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Home</a></li>
+                            <li class="header-list"><a href="../index.php">About Us</a></li>
+                            <li class="header-list"><a href="../blog/blog.php">Blog</a></li>
+                            <li class="header-list"><a href="../user/login.php">Community</a></li>
+                            <li class="header-list"><a href="#contactus">Contact Us</a></li>
+                            <li class="header-list"><a href="../index.php">Book an appointment</a></li>
                         </ul>
                     </div>
                     <p class="nav-bar-tmh-links-signup"><a href="../user/signup.php">Sign Up</a></p>
@@ -83,15 +81,15 @@ if(isset($_SESSION['user_id'])) {
                         </p>
                         <p class="community-profile-text-link">
                             <img src="../assess/notification.svg">
-                            <a href="" class="community-profile-text-link-list">Notifications</a>
+                            <a href="../user/otherprofile.php#notification" class="community-profile-text-link-list">Notifications</a>
                         </p>
                         <p class="community-profile-text-link">
                             <img src="../assess/question.svg">
-                            <a href="../community/community.php" class="community-profile-text-link-list">All questions</a>
+                            <a href="community.php" class="community-profile-text-link-list">All questions</a>
                         </p>
                         <p class="community-profile-text-link">
                             <img src="../assess/answer.svg">
-                            <a href="../blog/post.php" class="community-profile-text-link-list">Answered</a>
+                            <a href="post.php" class="community-profile-text-link-list">Answered</a>
                         </p>
                         <p class="community-profile-text-link">
                             <img src="../assess/unsolve.svg">
@@ -103,7 +101,7 @@ if(isset($_SESSION['user_id'])) {
                         </p>
                         <p class="community-profile-text-link">
                             <img src="../assess/setting.svg">
-                            <a href="" class="community-profile-text-link-list">Settings</a>
+                            <a href="../user/otherprofile.php#setting" class="community-profile-text-link-list">Settings</a>
                         </p>
                         <form class="log-out-form" action="" method="post">
                             <button type="submit" name="logout" value="Logout">

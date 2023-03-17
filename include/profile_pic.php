@@ -47,5 +47,5 @@ $user_id = $_SESSION["user_id"];
 
     // Close the database connection
     //mysqli_close($conn);
-}
+
 ?>
